@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  imageprocessingwebapi:
+    image: ${DOCKER_REGISTRY-}imageprocessingwebapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile

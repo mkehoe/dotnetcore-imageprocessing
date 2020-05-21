@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessingWebApi", "ImageProcessingWebApi.csproj", "{6501C81A-6138-4B90-A9B5-4277C993907A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D56DD354-75FC-4D90-8B38-7D91DFC8F263}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6501C81A-6138-4B90-A9B5-4277C993907A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6501C81A-6138-4B90-A9B5-4277C993907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6501C81A-6138-4B90-A9B5-4277C993907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6501C81A-6138-4B90-A9B5-4277C993907A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56DD354-75FC-4D90-8B38-7D91DFC8F263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56DD354-75FC-4D90-8B38-7D91DFC8F263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56DD354-75FC-4D90-8B38-7D91DFC8F263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56DD354-75FC-4D90-8B38-7D91DFC8F263}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
